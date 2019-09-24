@@ -44,12 +44,13 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(10, 264);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(464, 46);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "건의사항 제출";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -97,6 +98,7 @@
             this.tsbtnFont.Name = "tsbtnFont";
             this.tsbtnFont.Size = new System.Drawing.Size(23, 22);
             this.tsbtnFont.Text = "toolStripButton1";
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
@@ -106,6 +108,7 @@
             this.tsbtnColor.Name = "tsbtnColor";
             this.tsbtnColor.Size = new System.Drawing.Size(23, 22);
             this.tsbtnColor.Text = "toolStripButton2";
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // FormOpinion
             // 
